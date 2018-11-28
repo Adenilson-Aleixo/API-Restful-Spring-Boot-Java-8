@@ -1,6 +1,7 @@
-before_install:
-  git update-index --chmod=+x mvnw
-  - chmod +x ./mvnw
 language: java
 jdk:
   - oraclejdk8
+  
+before_install:
+  git update-index --chmod=+x mvnw
+  - chmod +x ./mvnw
